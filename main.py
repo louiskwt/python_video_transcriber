@@ -21,3 +21,5 @@ with open('script.txt', mode='w') as file:
     file.write("\n")
     file.write(result)
     print("The script is ready!")
+
+file.close()
